@@ -1,0 +1,331 @@
+*{
+    width: auto;
+    height: auto ;
+    
+}
+header{
+    height: 100%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+ul{
+    display: flex;
+    text-decoration: none;
+    gap: 28px;
+    position: absolute;
+    left: 30%;
+    top: 4%;
+}
+li{
+list-style: none;
+cursor: pointer;
+}
+li:hover{
+    color:red;
+}
+main{
+    width: auto;
+    height: auto;
+}
+.img1{
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+.img2{
+    position: absolute;
+    top: 7%;
+    width: 2vw;
+    right: 5%;
+    cursor: pointer;
+    height: 4vh;
+
+}
+.img3{
+    height: 4vh;
+    position: absolute;
+    top: 7%;
+    width: 2vw;
+    right: 9%;
+    cursor: pointer;
+}
+.div1{
+    position: absolute;
+    right: 45%;
+    top: 30vh;
+    text-align:center ;
+    font-family: verdana;
+    color:white;
+    
+}
+.btn1{
+    background:none;
+    position: relative;
+    top: -2vh;
+    height: 6vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: white;
+    box-shadow: 0px 0px 5px;
+    cursor: pointer;
+    color: white;
+}
+.div2{
+    text-align: center;
+}
+.page2{
+    padding-top: 30px;
+
+    height: 100vh;
+    
+    
+    
+}
+.row1{
+    padding-left: 30px;
+    display: flex;
+    gap: 9%; 
+    cursor: pointer;
+
+}
+.row2{
+    padding-left: 30px;
+    padding-top: 70px;
+    display: flex;
+    gap: 9%;
+    cursor: pointer;
+}
+.pcd1{
+    border: 1px solid black;
+    width: 15vw;
+    height: 35vh;
+
+}
+.pcd1,img{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+    
+}
+.t1{
+    
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: -1%;
+    
+}
+.rt1{
+    margin-top: px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.pcd2{
+    border: 1px solid black;
+    width: 15vw;
+    height: 35vh;
+}
+.pcd2,img{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+}
+.t2{
+    text-align: center;
+}
+.rt2{
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+.page3{
+    width: 50vw;
+    height: 42vh;
+    background-color: black;
+    box-shadow: 5px 5px 5px white;
+    color: white;
+    position: relative;
+    left: 2%;
+    top: 12vh;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 5%;
+    margin-top: -1%;
+}
+
+#p1{
+    position: absolute;
+    top: 23vh;
+    text-align: center;
+}
+.btn2{
+    position: relative;
+    width: 10vw;
+    height: 7vh;
+    top: 15vh;
+    border-color: white solid;
+    box-shadow: 0px 0px 2px white;
+    cursor: pointer;
+    
+}
+.card2{
+    width: 40vw;
+    height: 41vh;
+    background-color: black;
+    box-shadow: 5px 5px 5px white;
+    color: white;
+    position: relative;
+    left: 52vw;
+    bottom: 68%;
+    text-align: center;
+    border-radius: 2px;
+    padding-top: 10%;
+}
+    
+
+
+
+.btn3{
+    position: relative;
+    width: 10vw;
+    height: 7vh;
+    top: 15vh;
+    border-color: white solid;
+    box-shadow: 0px 0px 2px white;
+    cursor: pointer;
+
+}
+
+#p2{
+    position: absolute;
+    top: 23vh;
+    text-align: center;
+}
+.div3{
+    position: relative;
+    text-align: center;
+    top: 20vh;
+}
+.img4{
+    
+    margin-top: 10%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.img5{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+    border: 2px solid black;
+    cursor: pointer;
+    
+}
+.img6{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+    border: 2px solid black;
+    cursor: pointer;
+    
+
+}
+.img7{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.img8{
+    position: relative;
+    width: 16vw;
+    height: 35vh;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.btn4{
+    position: relative;
+    width: 8vw;
+    height: 8vh;
+    bottom: 1vh;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-color: black solid;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    margin-top: 10vh;
+    margin-left: 44vw;
+    background-color: none;
+
+}
+footer{
+    width: 100vw;
+    height: 35vh;
+    display: flex;
+    
+}
+.ul1{
+    position: relative;
+    display:block;
+   
+    left: 2%;
+    
+}
+
+.li1{
+    margin-top: 2%;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.ul2{
+    position: relative;
+    display:block;
+    left: 5%;
+    
+    
+    
+}
+
+
+.ul3{
+    position: relative;
+    display:block;
+
+    left: 9%;
+    justify-content: center
+
+    
+}
+.email1{
+    position: relative;
+
+    
+    width: 10vw;
+    left: 30%;
+}
+
+.btn6{
+    position: relative;
+    top: 6vh;
+    left: 10%;
+    border-radius: 2px solid black ;
+    box-shadow: 0px 0px 5px black;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer2{
+    width: 100vw;
+    height: 10vh;
+    position: relative;
+    bottom: vh;
+    display: inline;
+
+
+}
+.p20{
+top: 2vh;
+}
+
